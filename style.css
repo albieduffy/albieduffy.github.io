@@ -11,7 +11,7 @@ body {
 
 #left {
   display: grid;
-  grid-template-rows: 2fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   padding: 10px;
 }
 
@@ -39,6 +39,7 @@ a {
   color: black;
   opacity: 1;
 }
+
 a:hover {
   opacity: 0.7;
 }
@@ -50,8 +51,9 @@ a:hover {
 }
 
 .image {
-  background-image: url("trump.jpg");
+  background-image: url("images/swim.jpeg");
   background-position: center;
+  background-size: contain;
   background-repeat: no-repeat;
   color: white;
 }
