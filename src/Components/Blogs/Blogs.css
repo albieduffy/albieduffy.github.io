@@ -1,0 +1,10 @@
+.blogs {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.blog-post {
+  width: 600px;
+  text-align: left;
+}

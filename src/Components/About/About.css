@@ -1,0 +1,42 @@
+.about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 10px;
+}
+
+.about-info {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin: 10px;
+
+}
+
+.about-image {
+  margin: 10px;
+  background-image: url('https://i.imgur.com/3Gn2xcD.jpeg');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-intro {
+  margin-bottom: 10px;
+}
+
+.about-intro p {
+  text-align: justify;
+  line-height: 1.6;
+}
+.about-skills {
+  margin-top: 10px;
+}
+
+.skill-icons {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+}
+
+.icon-image {
+  display: grid;
+  justify-content: center;
+}
